@@ -1,0 +1,96 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-details h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.profile-details p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: #0366d6;
+    font-weight: bold;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.stat p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bio {
+    margin-bottom: 30px;
+}
+
+.bio h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}
